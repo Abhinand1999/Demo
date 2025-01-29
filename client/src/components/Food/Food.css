@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: auto;
+    background-image: url('../../assets/Rectangle\ 107.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.menu-button {
+    
+    font-family: 'Oswald', sans-serif;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: solid 2px;
+    border-color: #0796EF;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 2px 1px 0px #800020;
+    margin-right: 10px;
+}
+
+.menu-button:hover {
+    background-color: #0796EF;
+}
+
+
+@media (max-width: 576px) {
+  .menu-button {
+    font-size: 14px;  
+    height: 50px; 
+  }
+}

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+.menu-body{
+    background-image: url('../../assets/Rectangle 116.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+.menu-body-container{
+  border: 2px solid #d1d5db;
+ 
+  }
+  .menu-body-header {
+    text-align: center;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  
+  .menu-body-header h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 5px 4px 0px #800020;
+    display: inline-block;
+    position: relative;
+  }
+  .menu-body-header h2{
+    color: white;
+    font-family: 'Kelly Slab', sans-serif;
+    font-weight: 300;
+  }
+  
+  .menu-body-header h4:before,
+  .menu-body-header h4:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 70px; 
+    height: 2px;
+    background-color: #857878;
+  }
+  
+  .menu-body-header h4:before {
+    left: -100px; 
+  }
+  .menu-body-header h4:after {
+    right: -110px; 
+  }
+  
+
+  .i{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    padding: 2%;
+  }
+  .menu-item{
+    margin: 1%;
+  }
+  .menu-item-name-price{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .menu-item-price{
+    display: flex;
+    
+  }
+
+.menu-item-description
+{
+    font-family: 'Kelly Slab', sans-serif;
+    font-size: 18px;
+    width: 64%;
+    color: #FFFFFFBF;
+}
+
+@media (max-width: 480px) {
+  .menu-body-header {
+    text-align: center;
+    margin-bottom: 18px;
+    position: relative;
+  }
+  
+  .menu-body-header h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 5px 4px 0px #800020;
+    display: inline-block;
+    position: relative;
+  }
+  .menu-body-header h2{
+    color: white;
+    font-family: 'Kelly Slab', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  
+  .menu-body-header h4:before,
+  .menu-body-header h4:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 70px; 
+    height: 2px;
+    background-color: #857878;
+  }
+  
+  .menu-body-header h4:before {
+    left: -100px; 
+  }
+  .menu-body-header h4:after {
+    right: -110px; 
+  }
+  
+
+  .i{
+    display: flex;
+    
+    gap: 10px; 
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .menu-item{
+    margin: 1%;
+  }
+  .menu-item-name-price{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .menu-item-price{
+    display: flex;
+    font-size: 14px
+    
+  }
+
+.menu-item-description
+{
+    font-family: 'Kelly Slab', sans-serif;
+    font-size: 12px;
+    width: 64%;
+    color: #FFFFFFBF;
+}
+
+}
