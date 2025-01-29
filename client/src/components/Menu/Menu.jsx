@@ -10,8 +10,8 @@ const Menu = () => {
     useEffect(()=>{
         const fetchData = async () => {
             try {
-                const response = await axios.get(`http://localhost:3001/api/menu-items/${id}`);
-                const menurespose=await axios.get(`http://localhost:3001/api/menus/${id}`);
+                const response = await axios.get(`https://demo-aw5o.onrender.com/api/menu-items/${id}`);
+                const menurespose=await axios.get(`https://demo-aw5o.onrender.com/api/menus/${id}`);
                 setMenuitem(response.data); 
                 setMenu(menurespose.data[0])
               console.log(menurespose)

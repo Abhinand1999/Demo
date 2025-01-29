@@ -9,7 +9,7 @@ const Food = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/api/menus/');
+        const response = await axios.get('https://demo-aw5o.onrender.com/api/menus/');
         setFoods(response.data); 
         console.log(response.data);
       } catch (error) {
